@@ -1,7 +1,6 @@
 import java.math.BigInteger;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 import java.util.concurrent.RecursiveAction;
 
 /**
@@ -9,6 +8,10 @@ import java.util.concurrent.RecursiveAction;
  *
  */
 public class CustomRecursiveAction extends RecursiveAction {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int n;
 	int r;
 	BigInteger start;

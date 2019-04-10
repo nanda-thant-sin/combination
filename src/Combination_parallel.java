@@ -1,7 +1,6 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.TimeUnit;
 /**
  * @author Nanda
  *
@@ -20,5 +19,6 @@ public class Combination_parallel {
       long endTime   = System.nanoTime();
       long totalTime = endTime - startTime;
       System.out.println(totalTime);
+      sc.close();
    }
 }
